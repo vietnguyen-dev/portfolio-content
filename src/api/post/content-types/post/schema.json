@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "datetime_created": {
+      "type": "datetime"
+    },
+    "content": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    }
+  }
+}
