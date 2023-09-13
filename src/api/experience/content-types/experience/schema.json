@@ -4,7 +4,8 @@
   "info": {
     "singularName": "experience",
     "pluralName": "experiences",
-    "displayName": "experience"
+    "displayName": "experience",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,9 @@
     },
     "skills": {
       "type": "json"
+    },
+    "footer_blurb": {
+      "type": "string"
     }
   }
 }
