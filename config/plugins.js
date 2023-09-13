@@ -16,10 +16,11 @@ module.exports = ({ env }) => ({
         //   upload: {},
         //   delete: {},
         // },
-        provider: 'local',
-      providerOptions: {
-        sizeLimit: 100000,
-      },
+        providerOptions: {
+          localServer: {
+            maxage: 300000
+          },
+        },
       },
     },
   });
