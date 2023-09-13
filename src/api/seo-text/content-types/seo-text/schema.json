@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_texts",
+  "info": {
+    "singularName": "seo-text",
+    "pluralName": "seo-texts",
+    "displayName": "seo-text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blurb": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}
